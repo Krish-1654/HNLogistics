@@ -5,7 +5,7 @@ const hod = {
   name: 'Mr. Harish Bakrochiya',
   position: 'Head of Logistics',
   image: 'https://www.w3schools.com/bootstrap4/img_avatar3.png',
-  phone: '+919328390067',
+  phone: '+919998459469',
 };
 
 const employees = [
@@ -14,7 +14,7 @@ const employees = [
     name: 'Jignesh',
     position: 'Manager',
     image: 'https://www.w3schools.com/bootstrap4/img_avatar3.png',
-    phone: '+918141598731',
+    phone: '+919558859469',
   },
   {
     id: 2,
