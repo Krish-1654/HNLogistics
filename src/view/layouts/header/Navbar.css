@@ -48,6 +48,9 @@
 .navbar-links li a:hover {
   color: #25d366;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* Responsive */
