@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f4f4f4;
+}
+
+/* Add section spacing */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Buttons */
+a {
+  text-decoration: none;
+}
+
+.hero-button,
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: inline-block;
+}

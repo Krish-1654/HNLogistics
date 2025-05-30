@@ -1,0 +1,39 @@
+.hero {
+  background: url('https://t3.ftcdn.net/jpg/12/68/79/60/360_F_1268796068_IUjXJsZla0FCZyHnIiNV8rhsdLO2dcsh.jpg') center/cover no-repeat;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero-button {
+  background-color: #25d366;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.hero-button:hover {
+  background-color: #1ebd5f;
+}

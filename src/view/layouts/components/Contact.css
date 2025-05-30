@@ -1,0 +1,28 @@
+.contact {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebd5f;
+}
