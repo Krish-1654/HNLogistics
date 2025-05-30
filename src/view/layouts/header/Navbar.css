@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,13 +8,30 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* spacing between logo and hamburger */
 }
 
 .navbar h2 {
   color: white;
   letter-spacing: 3px;
+  font-size: 24px;
+  margin: 0;
 }
 
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Navbar links */
 .navbar-links {
   display: flex;
   list-style: none;
@@ -38,18 +49,11 @@
   color: #25d366;
 }
 
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: white;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
   .navbar {
     padding: 20px;
-    flex-wrap: wrap;
   }
 
   .hamburger {
